@@ -87,7 +87,7 @@
 .services .overlay,
 .contact .overlay {
     background: var(--white);
-    opacity: 0.6;
+    opacity: 0.8;
 }
 
 .services-wrapper {
