@@ -32,6 +32,10 @@
     margin-bottom: 20px;
 }
 
+.reviews.section .row {
+    align-items: flex-start;
+}
+
 .reviews-wrapper {
     display: flex;
     flex-direction: column;
