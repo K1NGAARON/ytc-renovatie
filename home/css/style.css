@@ -65,37 +65,56 @@
     transition: var(--transition);
 }
 
-.services.section {
+.services.section,
+.contact.section {
     justify-content: center;
-    background-image: url('/home/img/services.jpg');
+    background-image: url('/home/img/background.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
     position: relative;
 }
 
-.services .row {
+.services .row,
+.contact .row {
     z-index: 20;
 }
 
 .services h2 {
-    color: var(--white);
+    color: var(--black);
+}
+
+.services .overlay,
+.contact .overlay {
+    background: var(--white);
+    opacity: 0.6;
+}
+
+.services-wrapper {
+    gap: 20px;
 }
 
 .services-wrapper .item {
-    flex: 1 0;
+    flex: 1 0 20%;
     background-color: var(--white);
     padding: 20px;
     border-radius: 12px;
+    border: 2px solid var(--primary);
 }
 
 .services-wrapper .item img {
     width: 50px;
+    margin: 0 auto;
 }
 
 .services-wrapper .item .item-content {
     display: flex;
     flex-direction: column;
+}
+
+.services-wrapper .item .item-content h3,
+.services-wrapper .item .item-content p {
+    text-align: center;
 }
 
 .services-wrapper .item a {
