@@ -1,6 +1,6 @@
 .banner {
     justify-content: center;
-    height: 100vh;
+    height: 60vh;
     background-image: url('/home/img/banner.jpg');
     background-repeat: no-repeat;
     background-position: center center;
@@ -15,7 +15,8 @@
 
 .banner h1,
 .banner p {
-    text-align: center;
+    text-align: left;
+    width: 60%;
 }
 
 .banner .overlay,
@@ -82,7 +83,7 @@
 }
 
 .services-wrapper .item {
-    flex: 1 0 30%;
+    flex: 1 0;
     background-color: var(--white);
     padding: 20px;
     border-radius: 12px;
