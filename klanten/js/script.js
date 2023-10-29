@@ -15,6 +15,38 @@ const reviewsContent = [
         name: 'Steven & Inge',
         body: 'Bedankt voor de mooie afwerking van de badkamer. Wij zijn super tevreden!',
     },
+    {
+        name: 'Steven & Inge',
+        body: 'Bedankt voor de mooie afwerking van de badkamer. Wij zijn super tevreden!',
+    },
+    {
+        name: 'Steven & Inge',
+        body: 'Bedankt voor de mooie afwerking van de badkamer. Wij zijn super tevreden!',
+    },
+    {
+        name: 'Steven & Inge',
+        body: 'Bedankt voor de mooie afwerking van de badkamer. Wij zijn super tevreden!',
+    },
+    {
+        name: 'Steven & Inge',
+        body: 'Bedankt voor de mooie afwerking van de badkamer. Wij zijn super tevreden!',
+    },
+    {
+        name: 'Steven & Inge',
+        body: 'Bedankt voor de mooie afwerking van de badkamer. Wij zijn super tevreden!',
+    },
+    {
+        name: 'Steven & Inge',
+        body: 'Bedankt voor de mooie afwerking van de badkamer. Wij zijn super tevreden!',
+    },
+    {
+        name: 'Steven & Inge',
+        body: 'Bedankt voor de mooie afwerking van de badkamer. Wij zijn super tevreden!',
+    },
+    {
+        name: 'Steven & Inge',
+        body: 'Bedankt voor de mooie afwerking van de badkamer. Wij zijn super tevreden!',
+    },
     // {
     //     name: '',
     //     body: '',
