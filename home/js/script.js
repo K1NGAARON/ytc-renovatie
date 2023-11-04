@@ -25,3 +25,18 @@ function changeReviews() {
 };
 
 $('.dot').click(changeReviews);
+
+document.addEventListener( 'DOMContentLoaded', function() {
+    new Splide( '#gallery-slides', {
+        perPage: 3,
+        perMove: 1,
+        breakpoints: {
+            1000: {
+                heightRatio: 0.5,
+                perPage: 2,
+            }
+        },
+        type: 'loop',
+        speed: 3000,
+    }).mount();
+});
