@@ -1,16 +1,16 @@
 function changeReviews() {
     const reviews = [
         {
-            name: 'Klant 1',
-            review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, illum magnam. Adipisci obcaecati hic quaerat, molestias consequatur, ratione tempora tenetur officia neque suscipit earum iusto, consequuntur rem. Dolorem, cum!',
+            name: "Lieselot V",
+            review: "Heel betrouwbaar. De werken zijn heel goed uitgevoerd . Een man van zijn woord. Alles perfect zoals wij het willen. Zoekt ook mee naar betaalbare oplossingen !!! Als wij terug iemand nodig hebben dan twijfel ik geen seconde om Yannick te contacteren!!!!",
         },
         {
-            name: 'Klant 2',
-            review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, illum magnam. Adipisci obcaecati hic quaerat, molestias consequatur, ratione tempora tenetur officia neque suscipit earum iusto, consequuntur rem. Dolorem, cum!',
+            name: "Carine",
+            review: "Ik ben zeer tevreden over de renovatiewerken van mijn badkamer. Yannick was van zijn woord, de werken werden steeds stipt uitgevoerd. Ook de opkuis was in orde.",
         },
         {
-            name: 'Klant 3',
-            review: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, illum magnam. Adipisci obcaecati hic quaerat, molestias consequatur, ratione tempora tenetur officia neque suscipit earum iusto, consequuntur rem. Dolorem, cum!',
+            name: "Jean D",
+            review: "Tevreden! Ja, zeer tevreden over het geleverde werk. Yannick kent zijn vak, hij is van zijn woord en weet de verschillende beroepen te coördineren. Zijn advies werd ook zeer gewaardeerd en hij is erg vriendelijk. Heel erg bedankt voor alles 👍👍👍👍",
         }
     ];
 
