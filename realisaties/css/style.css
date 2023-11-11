@@ -1,7 +1,7 @@
 .banner {
     justify-content: center;
     height: 60vh;
-    background-image: url('/home/img/banner.jpg');
+    background-image: url('/home/img/banner-2.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
@@ -26,9 +26,8 @@
     width: 100%;
 }
 
-.section.gallery .gallery-wrapper .item {
+/* .section.gallery .gallery-wrapper .item {
     justify-content: flex-end;
-
     overflow: hidden;
 }
 
@@ -53,4 +52,12 @@
 
 .section.gallery .gallery-wrapper .item.large.top {
     justify-content: flex-start;
+} */
+
+.section.gallery .gallery-wrapper {
+    flex-flow: row wrap;
+}
+
+.section.gallery .gallery-wrapper .item {
+    flex: 1 0 40%;
 }
