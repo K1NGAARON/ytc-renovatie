@@ -22,6 +22,10 @@
 }
 
 @media (max-width: 560px) {
+    .banner {
+        height: 120vh;
+    }
+    
     .banner h1,
     .banner p {
         width: 100%;
