@@ -5,13 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>
-        Onze diensten | YTC Renovatie
+        Ontdek onze realisaties | YTC Renovatie
     </title>
-    <meta name="description" content="Ontdek Onze Renovatiediensten - Metselwerken, Badkamerrenovaties, Algemene Renovatiewerken en Vloerwerken op Maat.">
+    <meta name="description" content="Bekijk Onze Eerdere Projecten - Laat je Inspireren door Onze Gerealiseerde Bouw- en Renovatiewerken.">
 
     <link rel="stylesheet" href="/css/global.css">
     <link rel="stylesheet" href="/css/header-footer.css">
-    <link rel="stylesheet" href="/diensten/css/style.css">
+
+    <link rel="stylesheet" href="/realisaties/css/style.css">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
@@ -106,77 +107,35 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <div class="section banner">
     <div class="row flex-col animate center">
         <h1>
-            Ontdek onze diensten
+            Ontdek onze realisaties
         </h1>
     </div>
     <div class="overlay"></div>
 </div>
 
-<div class="section">
-    <div class="row animate">
-        <div class="col">
-            <img src="/diensten/img/badkamer-renovatie.jpg" alt="Badkamerrenovaties - Jouw Ontspanningsparadijs Op Maat">
+<div class="section content filter projects">
+    <div class="row flex-col center animate">
+        <div class="wrapper filters-wrapper">
+            <a class="filter-btn active" id="all">
+                Alles
+            </a>
+            <!-- <a class="filter-btn" id="totaalrenovatie">
+                Totaalrenovatie
+            </a> -->
+            <a class="filter-btn" id="badkamerrenovatie">
+                Badkamerrenovatie
+            </a>
+            <a class="filter-btn" id="metselwerken">
+                Metselwerken
+            </a>
+            <a class="filter-btn" id="vloerwerken-binnen">
+                Vloerwerken binnen
+            </a>
+            <a class="filter-btn" id="vloerwerken-buiten">
+                Vloerwerken buiten
+            </a>
         </div>
-        <div class="col">
-            <h2>
-                Badkamerrenovaties - Jouw Ontspanningsparadijs Op Maat
-            </h2>
-            <p>
-                Toe aan een vernieuwde badkamer? YTC Renovatie staat voor je klaar! Onze badkamerrenovaties transformeren jouw badkamer in een oase van rust en comfort. Van het plaatsen van nieuwe tegels tot het installeren van moderne voorzieningen, we creëren een badkamer die perfect bij jouw wensen past. Laat je droom badkamer werkelijkheid worden met ons deskundige team.
-            </p>
-            <a href="/contact/" class="btn">Gratis offerte</a>
-        </div>
-    </div>
-</div>
-
-<div class="section grey">
-    <div class="row animate">
-        <div class="col">
-            <h2>
-                Metselwerken - Sterke Muren voor Sterke Huizen
-            </h2>
-            <p>
-                Bij YTC Renovatie zijn we expert in metselwerken. Of het nu gaat om het herstellen van beschadigde muren, het bouwen van nieuwe structuren, of het renoveren van bestaande gevels, wij zorgen voor sterke en duurzame resultaten. Onze jarenlange ervaring en vakmanschap staan garant voor kwaliteit. Samen bouwen we aan jouw droomproject!
-            </p>
-            <a href="/contact/" class="btn">Gratis offerte</a>
-        </div>
-        <div class="col">
-            <img src="/diensten/img/metselwerken.jpg" alt="Metselwerken - Sterke Muren voor Sterke Huizen">
-        </div>
-    </div>
-</div>
-
-<div class="section">
-    <div class="row animate">
-        <div class="col">
-            <img src="/diensten/img/algemene-renovatiewerken.jpg" alt="Algemene Renovatiewerken - Jouw Partner in Verandering">
-        </div>
-        <div class="col">
-            <h2>
-                Algemene Renovatiewerken - Jouw Partner in Verandering
-            </h2>
-            <p>
-                Wil je je woning volledig vernieuwen? YTC Renovatie biedt algemene renovatiewerken op maat. Onze ruime ervaring stelt ons in staat om elk aspect van je project met precisie en duurzaamheid aan te pakken. Van nieuwbouw tot aanbouw en renovatie, we zijn jouw betrouwbare partner in deze reis. Samen maken we je visie werkelijkheid.
-            </p>
-            <a href="/contact/" class="btn">Gratis offerte</a>
-        </div>
-    </div>
-</div>
-
-<div class="section grey">
-    <div class="row animate">
-        <div class="col">
-            <h2>
-                Vloerwerken - De Basis van Elegante Ruimtes
-            </h2>
-            <p>
-                Een mooie vloer vormt de basis van elke ruimte. YTC Renovatie levert hoogwaardige vloerwerken die jouw huis transformeren. Of je nu kiest voor prachtige tegels, houten vloeren, of modern laminaat, we zorgen voor een naadloze installatie. Laat je vloeren stralen en kies voor vakmanschap dat de tand des tijds doorstaat.
-            </p>
-            <a href="/contact/" class="btn">Gratis offerte</a>
-        </div>
-        <div class="col">
-            <img src="/diensten/img/vloerwerken.jpg" alt="Vloerwerken - De Basis van Elegante Ruimtes">
-        </div>
+        <div class="wrapper projects-wrapper" id="content"></div>
     </div>
 </div>
 
@@ -225,5 +184,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
     <script src="/js/app.js"></script>
+    <script src="/realisaties/js/script.js"></script>
 </body>
 </html>
